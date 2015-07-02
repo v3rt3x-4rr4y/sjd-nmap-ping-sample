@@ -25,8 +25,8 @@ Writing files... done.
 Sample host list written to: /home/banana/Development/scratch/python/sjd-nmap-ping-sample/test_pingsweep-sample-02-07-2015_15:41:13.txt
 Master host list written to: /home/banana/Development/scratch/python/sjd-nmap-ping-sample/test_pingsweep-master-02-07-2015_15:41:13.txt
 banana@monkey ~/Development/scratch/python/sjd-nmap-ping-sample $ ls -al *.txt
--rw-r--r-- 1 spenjd spenjd 77 Jul  2 15:41 test_pingsweep-master-02-07-2015_15:41:13.txt
--rw-r--r-- 1 spenjd spenjd 39 Jul  2 15:41 test_pingsweep-sample-02-07-2015_15:41:13.txt
+-rw-r--r-- 1 banana banana 77 Jul  2 15:41 test_pingsweep-master-02-07-2015_15:41:13.txt
+-rw-r--r-- 1 banana banana 39 Jul  2 15:41 test_pingsweep-sample-02-07-2015_15:41:13.txt
 banana@monkey ~/Development/scratch/python/sjd-nmap-ping-sample $ cat test_pingsweep-master-02-07-2015_15\:41\:13.txt 
 192.168.0.1
 192.168.0.14
