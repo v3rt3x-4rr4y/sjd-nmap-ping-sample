@@ -8,7 +8,7 @@
     Python Version     : 2.7
     Dependencies       : libnmap (https://github.com/savon-noir/python-libnmap)
     Description        : Generate a randomised sample of live host IP addresses from the supplied \
-                         network range, e.g: python sjd-nmap.py -p 10 -s test -r 192.168.0.0/24 \
+                         network range, e.g: python sjd-nmap-ping-sample.py -p 10 -s test -r 192.168.0.0/24 \
 '''
 
 
@@ -30,7 +30,7 @@ except ImportError:
 
 # Parse supplied arguments
 parser = argparse.ArgumentParser(description="Generate a randomised sample of live host IP addresses from the supplied \
-                                              network range, e.g: python sjd-nmap.py -p 10 -s test -r 192.168.0.0/24")
+                                              network range, e.g: python sjd-nmap-ping-sample.py -p 10 -s test -r 192.168.0.0/24")
 parser.add_argument("-p","--percentage", help="percentage of total hosts required (integer)", required=True)
 parser.add_argument("-s","--prefix", help="The string to prefix the generated filenames with", required=True)
 parser.add_argument("-r","--range", help="The network range to scan", required=True)
