@@ -8,7 +8,7 @@
 ```
 #!python
 
-python sjd-nmap.py -p 10 -s test -r 192.168.0.0/24
+python sjd-nmap-ping-sample.py -p 10 -s test -r 192.168.0.0/24
 
 -p 10 (provide a 10 percent sample of live hosts selected at random).
 -s test (prefix the output files with the string 'test').
